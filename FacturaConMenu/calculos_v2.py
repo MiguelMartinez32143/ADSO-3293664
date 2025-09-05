@@ -2,6 +2,7 @@ def calcular_totales(productos, iva_porcentaje=0.19):
     subtotal_general = 0
     iva_general = 0
     detalles = []
+    
     for producto in productos:
         nombre, precio, cantidad = producto
         subtotal = precio * cantidad
